@@ -1,0 +1,45 @@
+
+body
+{
+	background-color: #ADB1D7;
+}
+
+.parent {
+
+height: 100vh;
+width :100%;
+margin: 0px auto;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(10, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+border : 10px solid green;
+
+}
+.div1 { 
+	
+	grid-area: 1 / 1 / 11 / 11;
+ }
+.div2 { 
+	grid-area: 1 / 1 / 6 / 6;
+	position:relative;
+	border:2px solid yellow;
+ }
+.div3 {
+ 	grid-area: 6 / 1 / 11 / 6;
+ 	border:2px solid red;
+  }
+.div4 { 
+	grid-area: 1 / 6 / 6 / 11;
+	border:2px solid blue;
+	 }
+.div5 { 
+	grid-area: 6 / 6 / 11 / 11;
+	border:2px solid pink;
+	 }
+
+.smack_text_box
+{
+	position:absolute; bottom:0; right:0;
+}

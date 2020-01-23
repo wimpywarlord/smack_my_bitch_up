@@ -12,6 +12,8 @@ Here to revolutionaries club meetings.
 [![MAKE](https://img.shields.io/badge/Think-Big-orange.svg?style=for-the-badge)](https://www.linkedin.com/in/kshitijdhyani/)
 [![SELL](https://img.shields.io/badge/Work-Hard-blue.svg?style=for-the-badge)](https://github.com/wimpywarlord)
 
+
+
 Its quite simple, just follow the following steps.
 
 Start with cloning the repository in the desired directory :
@@ -19,14 +21,19 @@ Start with cloning the repository in the desired directory :
 ```
 git clone <http url>
 ```
-  
+Soon the instructions will be updated me here.  
 
 ### Prerequisites
 
 All you need is a knack for learning.
-As the saying goes.
 
 > Your life will flash in front of your eyes one day,make sure its worth watching.
+
+If you are just getting started with GitHub then I recommended you to read [this](https://github.com/wimpywarlord/first-contributions/blob/master/README.md) document. This is for when you look forward to making small changes and pull requests.
+
+In case you want a comprehensive understanding of GitHub and want to become a long term contributor to this project, I recommend reading [this]( https://gist.github.com/Chaser324/ce0505fbed06b947d962) document.
+
+
 
 ### Installing
 

@@ -42,4 +42,24 @@ border : 10px solid green;
 .smack_text_box
 {
 	position:absolute; bottom:0; right:0;
+	font-family: 'Anton', sans-serif;
+	font-size:9vw; 
+	color: #00957C;
+}
+.my_text_box
+{
+
+	color: #707070;
+	font-family: 'Anton', sans-serif;
+	font-size: 15vw;
+}
+
+.bitch_text_box
+{
+	
+}
+
+.up_text_box
+{
+	
 }

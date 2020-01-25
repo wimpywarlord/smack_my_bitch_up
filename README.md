@@ -6,6 +6,8 @@
 
 Here to revolutionaries club meetings. 
 
+[alt-text](https://github.com/wimpywarlord/smack_my_bitch_up/blob/master/design/implemented%20design%20of%20landing%20page.gif)
+
 ## Getting Started
 
 [![THINK](https://img.shields.io/badge/Stay-Motivated-teal.svg?style=for-the-badge)](https://github.com/wimpywarlord/Mess_It_Up) 

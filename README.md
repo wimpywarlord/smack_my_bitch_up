@@ -6,7 +6,7 @@
 
 Here to revolutionaries club meetings. 
 
-[alt-text](https://github.com/wimpywarlord/smack_my_bitch_up/blob/master/design/implemented%20design%20of%20landing%20page.gif)
+![alt-text](https://github.com/wimpywarlord/smack_my_bitch_up/blob/master/design/implemented%20design%20of%20landing%20page.gif)
 
 ## Getting Started
 

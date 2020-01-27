@@ -4,7 +4,7 @@ body
 }
 div
 {
-	border:2px solid red;
+	/*border:2px solid red;*/
 }
 .parent {
 display: grid;
@@ -21,6 +21,7 @@ grid-row-gap: 0px;
 	color: #FFFFFF;
 	font-size: 141px;
 	text-align: center;
+	padding-top: 3vh;
 	 }
 .div2 { grid-area: 6 / 1 / 10 / 11; }
 .div3 { grid-area: 10 / 1 / 19 / 11; }
@@ -83,6 +84,25 @@ grid-row-gap: 0px;
 .div60 { grid-area: 17 / 9 / 18 / 10; }
 .div61 { grid-area: 19 / 1 / 21 / 11; }
 .div62 { grid-area: 19 / 5 / 21 / 7; }
-.div63 { grid-area: 7 / 2 / 8 / 10; }
-.div64 { grid-area: 6 / 2 / 7 / 4; }
-.div65 { grid-area: 8 / 2 / 10 / 10; }
+.div63 { 
+	grid-area: 7 / 2 / 8 / 10;
+
+	 }
+#phone_number_text_box
+{
+	width: 99.5%;
+
+	height: 100%;
+}
+.div64 { 
+	grid-area: 6 / 2 / 7 / 4; 
+		color: #449D44;
+	display: -webkit-flex;
+ 	display: flex;
+  	align-items: center;
+}
+.div65 {
+ grid-area: 8 / 2 / 10 / 10;
+ color: #818A91;
+ padding-top: 13px;
+  }

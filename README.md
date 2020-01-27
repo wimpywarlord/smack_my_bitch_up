@@ -45,8 +45,6 @@ Optionally I recommend you to download **Sublime text** 3.Its a amazing free edi
 
 Just starting out with the project. This portion will be updated soon.
 
-Kindly refer to the design folder for inspiration and direction towards what to contribute.
-
 ## Built With
 
 [![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/kshitijdhyani/) [![KSHITIJ DHYANI](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.linkedin.com/in/kshitijdhyani/) 
@@ -56,6 +54,10 @@ Build with love and some Javascript.
 ## Contributing
 
 Help us make the site better in any way possible.
+
+
+Kindly refer to the design folder for inspiration and direction towards what to contribute.
+
 
 ## I'm a social animal!
 

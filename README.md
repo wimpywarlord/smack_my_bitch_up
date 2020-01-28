@@ -14,40 +14,63 @@ Here to revolutionaries club meetings.
 [![MAKE](https://img.shields.io/badge/Think-Big-orange.svg?style=for-the-badge)](https://www.linkedin.com/in/kshitijdhyani/)
 [![SELL](https://img.shields.io/badge/Work-Hard-blue.svg?style=for-the-badge)](https://github.com/wimpywarlord)
 
-
-
-Its quite simple, just follow the following steps.
+It's quite simple, just follow the following steps.
 
 Start with cloning the repository in the desired directory :
 
 ```
 git clone <http url>
 ```
-Soon the instructions will be updated me here.  
 
-### Prerequisites
+Download and install node.js from [here](https://nodejs.org/en/download/).
+
+CD into the directory where you have cloned the repo and install all the dependencies.
+
+NPM install all dependencies :
+
+```
+npm install body-parser
+```
+```
+npm install ejs
+```
+```
+npm install express
+```
+
+## Prerequisites
 
 All you need is a knack for learning.
-
-> Your life will flash in front of your eyes one day,make sure its worth watching.
 
 If you are just getting started with GitHub then I recommended you to read [this](https://github.com/wimpywarlord/first-contributions/blob/master/README.md) document. This is for when you look forward to making small changes and pull requests.
 
 In case you want a comprehensive understanding of GitHub and want to become a long term contributor to this project, I recommend reading [this]( https://gist.github.com/Chaser324/ce0505fbed06b947d962) document.
 
+## Installing
 
+Optionally I recommend you to download **Sublime text** 3.Its an amazing free editor from [here](https://www.sublimetext.com/3). 
 
-### Installing
-
-Optionally I recommend you to download **Sublime text** 3.Its a amazing free editor from [here](https://www.sublimetext.com/3). 
+Download and install node.js from [here](https://nodejs.org/en/download/).
 
 ## Deployment
 
-Just starting out with the project. This portion will be updated soon.
+Open the **command prompt** in the base folder of the repository and type in the command : 
+
+```
+node app.js
+```
+
+Open your browser and type in the URL : 
+
+```
+localhost:8000
+```
 
 ## Built With
 
 [![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/kshitijdhyani/) [![KSHITIJ DHYANI](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.linkedin.com/in/kshitijdhyani/) 
+
+> Your life will flash in front of your eyes one day, make sure it's worth watching.
 
 Build with love and some Javascript.
 

@@ -4,7 +4,7 @@ body
 }
 div
 {
-	/*border:2px solid red;*/
+	border:2px solid red;
 }
 .parent {
 display: grid;
@@ -23,6 +23,12 @@ grid-row-gap: 0px;
 	text-align: center;
 	padding-top: 3vh;
 	 }
+#submit_button
+{
+	border-radius: 10px;
+	font-size: 35px;
+	box-shadow: 5px 5px;
+}
 .div2 { grid-area: 6 / 1 / 10 / 11; }
 .div3 { grid-area: 10 / 1 / 19 / 11; }
 .div4 { grid-area: 11 / 2 / 18 / 10; }
@@ -83,17 +89,23 @@ grid-row-gap: 0px;
 .div59 { grid-area: 16 / 9 / 17 / 10; }
 .div60 { grid-area: 17 / 9 / 18 / 10; }
 .div61 { grid-area: 19 / 1 / 21 / 11; }
-.div62 { grid-area: 19 / 5 / 21 / 7; }
+.div62 {
+
+		 grid-area: 19 / 5 / 21 / 7;
+		 display: flex;
+	     align-items: center;
+	     justify-content: center;
+ }
 .div63 { 
 	grid-area: 7 / 2 / 8 / 10;
 
 	 }
 #phone_number_text_box
 {
-	width: 99.5%;
-
+	width: 100%;
 	height: 100%;
 }
+
 .div64 { 
 	grid-area: 6 / 2 / 7 / 4; 
 		color: #449D44;

@@ -79,9 +79,14 @@
 	<div class="div61"> </div>
 	<div class="div62"> </div>
 	<div class="div63">
-		<input type="text" id="phone_number_text_box" name="phone_number">
-	 </div>
-	<div class="div64">Phone Number</div>
+	<input type="text" id="phone_number_text_box" name="phone_number" required pattern="\S+"/>
+	<label for="phone_number" class="label">
+		<span class="content">Phone Number</span>
+	</label>
+	</div>
+	<div class="div64">
+		<div id="add_number" onclick="add_number()" class="btn btn-sm animated-button">ADD </div>
+	</div>
 	<div class="div65">Enter your WhatsApp Number to mark yourself as present.<br>
 	All those missing will receive a message asking the reason for thier absence.<br>
 	The president will automatically receive a list and statistics/demographics of the club.

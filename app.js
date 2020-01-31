@@ -84,6 +84,14 @@ app.get("/who_to_smack",function(req,res)
 	}
 );
 
+app.post("/add_a_number",function(req,res)
+	{
+		res.render("smack_my_bitch_up.ejs",
+			{
+				
+			});
+	});
+
 app.listen( process.env.PORT || 8000 , function(){
 	console.log("SERVER 8000 HAS STARTED");
 });

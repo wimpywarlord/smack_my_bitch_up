@@ -4,7 +4,7 @@ body
 }
 div
 {
-	border:2px solid red;
+	/*border:2px solid red;*/
 }
 .parent {
 display: grid;
@@ -27,6 +27,12 @@ grid-row-gap: 0px;
 {
 	border-radius: 10px;
 	font-size: 35px;
+	box-shadow: 5px 5px;
+}
+#add_number
+{
+	border-radius: 10px;
+	font-size: 25px;
 	box-shadow: 5px 5px;
 }
 .div2 { grid-area: 6 / 1 / 10 / 11; }
@@ -115,6 +121,7 @@ grid-row-gap: 0px;
 }
 .div65 {
  grid-area: 8 / 2 / 10 / 10;
- color: #818A91;
- padding-top: 13px;
+  display: flex;
+	     align-items: center;
+	     justify-content: center;
   }

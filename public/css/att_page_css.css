@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 body
 {
 	background-color: #3B3B39;
@@ -29,11 +30,44 @@ grid-row-gap: 0px;
 	font-size: 35px;
 	box-shadow: 5px 5px;
 }
-#add_number
-{
-	border-radius: 10px;
-	font-size: 25px;
-	box-shadow: 5px 5px;
+.animated-button {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size:14px;
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border: 2px solid #D24D57;
+}
+
+.animated-button:after{
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.animated-button:hover:after {
+    height: 450%;
 }
 .div2 { grid-area: 6 / 1 / 10 / 11; }
 .div3 { grid-area: 10 / 1 / 19 / 11; }
@@ -106,10 +140,61 @@ grid-row-gap: 0px;
 	grid-area: 7 / 2 / 8 / 10;
 
 	 }
-#phone_number_text_box
+#phone_number_text_box{
+    border:0;
+    background: none;
+    display:block;
+    margin-top: 10px;
+    text-align: 20px center;
+    border:2px solid #3498db;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    font-family: 'Libre Baskerville', serif;
+    transition: 0.25s;
+}
+
+
+#phone_number_text_box:focus{
+    width:280px;
+    border-width: 3px;
+    font-size: 20px;
+    color: white;
+    border-color:#2ecc71;
+    
+}
+.div63{
+    position: relative;
+}
+
+.label{
+    color: white;
+    pointer-events: none;
+}
+
+.content{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top:26px;
+    left: 15px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+} 
+
+#phone_number_text_box:focus + .label .content
 {
-	width: 100%;
-	height: 100%;
+    
+    transform: translateY(-210%);
+    font-size:20px ;
+} 
+
+#phone_number_text_box:valid + .label .content{
+    transform: translateY(-210%);
+    font-size:20px ;
 }
 
 .div64 { 

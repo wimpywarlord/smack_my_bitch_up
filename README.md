@@ -6,7 +6,7 @@
 
 Here to revolutionaries club meetings. 
 
-![alt-text](https://github.com/wimpywarlord/smack_my_bitch_up/blob/master/design/implemented%20design%20of%20landing%20page.gif)
+![alt-text](https://github.com/wimpywarlord/smack_my_bitch_up/blob/master/public/design/implemented%20design%20of%20landing%20page.gif)
 
 ## Getting Started
 
@@ -26,17 +26,7 @@ Download and install node.js from [here](https://nodejs.org/en/download/).
 
 CD into the directory where you have cloned the repo and install all the dependencies.
 
-NPM install all dependencies :
-
-```
-npm install body-parser
-```
-```
-npm install ejs
-```
-```
-npm install express
-```
+NPM install all dependendencies mentioned in the ```package.json``` file.
 
 ## Prerequisites
 
